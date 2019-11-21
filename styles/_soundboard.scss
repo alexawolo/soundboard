@@ -1,0 +1,99 @@
+.soundboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    max-height: 1100px;
+    background: darkgrey;
+    border: 2px solid dimgray;
+    padding: 20px;
+    margin: 15px;
+}
+
+.pads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    // border: 2px solid rgb(87, 87, 87);
+    max-width: 510px;
+    // max-height: 510px;
+    background: darkgrey;
+    // border: 2px solid dimgray;
+}
+
+.pad {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    background: lightgrey;
+    margin: 10px;
+    box-shadow: 1px 1px 5px 3px rgb(138, 138, 138);
+}
+
+.pad:hover {
+    border: 2px solid grey;
+    background: silver;
+}
+
+.pad1:active {
+    border: 2px solid darkred;
+    background: red;
+}
+
+.pad2:active {
+    border: 2px solid darkorange;
+    background: orange;
+}
+
+.pad3:active {
+    border: 2px solid rgb(255, 196, 0);
+    background: rgb(255, 217, 0);
+}
+
+.pad4:active {
+    border: 2px solid darkgreen;
+    background: green;
+}
+
+.pad5:active {
+    border: 2px solid darkblue;
+    background: blue;
+}
+
+.pad6:active {
+    border: 2px solid purple;
+    background: rgb(192, 0, 192);
+}
+
+.pad7:active {
+    border: 2px solid lightpink;
+    background: pink;
+}
+
+.visual > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 20%;
+    bottom: 0%;
+}
+
+@keyframes jump{
+    0%{
+        bottom: 0%;
+        left: 20%;
+    }
+    50%{
+        bottom: 50%;
+        left: 50%;
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+    }
+}

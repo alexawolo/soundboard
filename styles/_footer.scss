@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: darkorange;
+    padding: 3px;
+    p {
+        color: rgb(87, 87, 87);
+        a {
+            text-decoration: none;
+            color: rgb(87, 87, 87);
+        }
+    }
+    p:nth-child(1) {
+        font-size: 1rem;
+    }
+    p:nth-child(2) {
+        font-size: .8rem;
+    } 
+}

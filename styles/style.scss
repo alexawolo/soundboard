@@ -1,0 +1,15 @@
+@import "setup";
+
+body, html {
+    font-size: 125%;
+    background: rgb(87, 87, 87);
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+@import "typography";
+@import "soundboard";
+@import "footer";
